@@ -1,0 +1,38 @@
+header {
+    background-color: yellow;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+.conteudo-topo img {
+    height: 100px;
+}
+
+.conteudo-topo {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+nav {
+    display: flex;
+}
+
+.Links {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+@media (max-width: 436px) {
+    .conteudo-topo {
+        flex-direction: column;
+    }
+    
+    nav {
+        border-top: 1px solid black;
+    }
+}

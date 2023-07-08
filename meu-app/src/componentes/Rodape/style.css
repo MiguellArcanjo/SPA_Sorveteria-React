@@ -1,0 +1,39 @@
+footer {
+    background-color: #000;
+    color: #fff;
+    
+}
+
+.footer-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 10px;
+}
+
+.footer-conteudo img {
+    height: 120px;
+}
+
+.footer-conteudo div h2 {
+    font-size: 20px;
+}
+
+.footer-conteudo div p {
+    font-size: 16px;
+}
+
+.footer-final {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-conteudo {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        text-align: center;
+    }
+}
