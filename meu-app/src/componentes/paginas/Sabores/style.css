@@ -1,0 +1,82 @@
+.bannerSabores {
+    background-image: url('/public/assets/banner-sabores.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: yellow;
+    background-size: cover;
+    z-index: -1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 4px 4px 8px #000;
+    text-align: center;
+}
+
+.secaoSabores div h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.secaoSabores {
+    padding: 100px;
+}
+
+.card {
+    width: 25%;
+    margin-left: 3%;
+    margin-top: 6%;
+    box-shadow: 2px 2px 15px 2px rgb(191, 189, 189);
+    border-radius: 7px;
+    text-align: center;
+    padding: 0px 5px 60px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    height: 210px;
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 15px;
+}
+
+@media (max-width: 768px) {
+    .box-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        height: 210px;
+        width: auto;
+    }
+}
+
+@media (max-width: 436px){
+    .card img {
+        height: 150px;
+        width: 200px;
+    }
+}
